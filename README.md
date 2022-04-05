@@ -4,15 +4,15 @@ best pizza in our dimension
 
 **Used Stack:**
 
--TypeScript
--ReactJS + hooks
--React Router
--Redux
--Redux thunk
--json-server
--Axios
--classnames
--React skeleton
+- TypeScript
+- ReactJS + hooks
+- React Router
+- Redux
+- Redux thunk
+- json-server
+- Axios
+- classnames
+- React skeleton
 
 ## Available Scripts
 
