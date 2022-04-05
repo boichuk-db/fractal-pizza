@@ -1,6 +1,6 @@
-# Link to WebSite
+# [Fractal Pizza](https://fractal-pizza.herokuapp.com/)
 
-[Fractal Pizza](https://fractal-pizza.herokuapp.com/) - best pizza in our dimension
+best pizza in our dimension
 
 **Used Stack:**
 
