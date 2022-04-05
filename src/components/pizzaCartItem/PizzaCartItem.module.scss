@@ -1,0 +1,68 @@
+@import "../../scss/variables";
+@import "../../scss/libs/normalize";
+
+.cart {
+  &__item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-top: 1px solid $gray-line;
+    padding-top: 30px;
+    margin-top: 30px;
+
+    &__img {
+      display: flex;
+      align-items: center;
+      margin-right: 15px;
+
+      img {
+        width: 80px;
+        height: 80px;
+      }
+    }
+
+    &__info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-width: max-content;
+      width: 40%;
+      margin-right: 10px;
+      h3 {
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 27px;
+        letter-spacing: 0.01em;
+      }
+
+      p {
+        font-size: 18px;
+        color: #8d8d8d;
+      }
+    }
+
+    &__count {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      b {
+        font-size: 22px;
+      }
+    }
+
+    &__price {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-width: max-content;
+      width: 33%;
+
+      b {
+        font-weight: bold;
+        font-size: 22px;
+        letter-spacing: 0.01em;
+      }
+    }
+  }
+}
