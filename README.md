@@ -1,18 +1,18 @@
-# Link to WebSite
+# [Fractal Pizza](https://fractal-pizza.herokuapp.com/)
 
-[Fractal Pizza](https://fractal-pizza.herokuapp.com/) - best pizza in our dimension
+best pizza in our dimension
 
 **Used Stack:**
 
--TypeScript
--ReactJS + hooks
--React Router
--Redux
--Redux thunk
--json-server
--Axios
--classnames
--React skeleton
+- TypeScript
+- ReactJS + hooks
+- React Router
+- Redux
+- Redux thunk
+- json-server
+- Axios
+- classnames
+- React skeleton
 
 ## Available Scripts
 
