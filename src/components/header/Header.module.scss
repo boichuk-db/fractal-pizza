@@ -4,6 +4,15 @@
 .root {
   border-bottom: 1px solid $gray-line;
   padding: 40px 0;
+  @media screen and (max-width: $medium) {
+    padding: 10px 0;
+    background: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: sticky;
+    top: -1px;
+    z-index: 10;
+  }
 
   img {
     margin-right: 15px;

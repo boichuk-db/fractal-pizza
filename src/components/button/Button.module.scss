@@ -155,7 +155,9 @@
     align-items: center;
     line-height: 23px;
     padding: 12px 25px;
-
+    @media screen and (max-width: $medium) {
+      padding: 8px 25px;
+    }
     svg {
       margin-right: 8px;
       margin-bottom: 1px;
@@ -210,7 +212,7 @@
   }
 
   &__disabled {
-    &:disabled{
+    &:disabled {
       opacity: 0.4;
     }
   }

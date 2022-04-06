@@ -64,6 +64,7 @@
 
     &__details {
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-between;
 
       span {
@@ -81,6 +82,13 @@
       display: flex;
       justify-content: space-between;
       margin-top: 40px;
+
+      @media screen and (max-width: $medium) {
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 1rem;
+      }
 
       .go__back__btn {
         display: flex;
@@ -125,7 +133,7 @@
 
   &__empty {
     margin: 0 auto;
-    width: 560px;
+    width: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -134,6 +142,9 @@
     h2 {
       font-size: 32px;
       margin-bottom: 10px;
+      @media screen and (max-width: $small) {
+        font-size: 28px;
+      }
     }
 
     p {
@@ -141,6 +152,9 @@
       line-height: 145.4%;
       letter-spacing: 0.01em;
       color: #777777;
+      @media screen and (max-width: $small) {
+        font-size: 15px;
+      }
     }
 
     icon {
@@ -150,7 +164,8 @@
 
     img {
       display: block;
-      width: 300px;
+      width: 100%;
+      max-width: 300px;
       margin: 45px auto 60px;
     }
 

@@ -5,10 +5,15 @@
   &__item {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     width: 100%;
     border-top: 1px solid $gray-line;
     padding-top: 30px;
     margin-top: 30px;
+    @media screen and (max-width: $medium) {
+      flex-direction: column;
+      gap: 1rem;
+    }
 
     &__img {
       display: flex;
@@ -25,8 +30,7 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      min-width: max-content;
-      width: 40%;
+      width: 250px;
       margin-right: 10px;
       h3 {
         font-weight: bold;
@@ -40,7 +44,10 @@
         color: #8d8d8d;
       }
     }
-
+    &__utils {
+      display: flex;
+      gap: 1rem;
+    }
     &__count {
       display: flex;
       align-items: center;

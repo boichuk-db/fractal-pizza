@@ -89,7 +89,7 @@ const Cart: FC = () => {
                     <span>Back to main</span>
                   </Button>
                 </Link>
-                <Button pay>
+                <Button pay onClick={() => alert("Congratulation!")}>
                   <span>Pay now</span>
                 </Button>
               </div>
